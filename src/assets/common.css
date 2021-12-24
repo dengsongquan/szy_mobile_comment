@@ -1,0 +1,387 @@
+html {
+  /* color: #434343; */
+  color: #555;
+  background : #fff;
+  overflow-y : scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 14px;
+}
+
+fieldset, img{
+ border : 0 none;
+ vertical-align : middle;
+}
+
+html * {
+  outline: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}*:not(input, textarea) {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none
+}
+
+i{ font-style:normal}
+html,body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 93%;
+  margin: 0px auto;
+  background-color: #F8F8F8;
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  margin: 0;
+  padding: 0
+}
+
+input,select,textarea {
+  font-size: 100%
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal
+}
+
+del {
+  text-decoration: line-through
+}
+
+address,caption,cite,code,dfn,em,th,var {
+  font-style: normal;
+  font-weight: 500
+}
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+a{
+text-decoration:none;
+color:#333;
+}
+ol,ul {
+  list-style: none
+}
+
+caption,th {
+  text-align: left
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: 500
+}
+
+ins,a {
+  text-decoration: none
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	*zoom: 1;
+}
+.w {
+    width: 1140px;
+    margin: 0 auto;
+    /* background-color: #dbdbdb; */
+}
+/* 初始化结束 */
+
+/* 内容开始 */
+
+
+
+.header .topNav .navBox .navTable {
+    margin-right: 24px;
+}
+.header .topNav .navBox .navTable:hover {
+    color: #447BB4;
+}
+.header .userState {
+    width: 182px;
+    line-height: 50px;
+    float: right;
+    margin-right: 5px;
+
+}
+.header .userState .iocn img {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 13px;
+    margin-right: 12px;
+}
+.header .userState .userName {
+    float: left;
+    margin-right: 12px;
+    margin-left: 12px;
+    font-size: 18px;
+    color: #447BB4;
+}
+/* 头部结束 */
+
+/* main内容开始 */
+
+.main {
+    /*background-color:  red;*/
+    /*width: 1170px;*/
+    /*height: 100%;*/
+}
+.main .mainTitle {
+    border-bottom: 1px solid #e9e9e9;
+    font-size: 1rem;
+    color: #666;
+}
+.main .mainTitle span {
+    margin-left: 20px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.main .left {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+}
+.main .left .leftTitle {
+    width: 100%;
+    height: 3rem;
+    background-color: aliceblue;
+}
+
+.leftTitle {
+    width: 100%;
+    height: 3rem;
+    background-color: #e0e0e0;
+}
+.main .left .leftTitle>span {
+    font-size: 1.5rem;
+    line-height: 48px;
+    font-weight: bold;
+    color: #555;
+
+}
+.main .left .leftContent {
+    padding: 25px 35px 35px 35px;
+}
+.main .left .leftContent .subject {
+    font-size: 1.5rem;
+    line-height: 36px;
+    color: #555;
+
+}
+.main .left .leftContent ul {
+    margin-top: 15px;
+}
+.main .left .leftContent ul>li {
+    line-height: 35px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.main .right {
+    width: 100%;
+    height: calc(100vh - 13.8rem);
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    position: absolute;
+    overflow: auto;
+}
+
+.main .right2 {
+    width: 100%;
+    height: calc(100vh - 10rem);
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    position: absolute;
+    overflow: auto;
+}
+.main .right3 {
+    width: 100%;
+    height: calc(100vh - 7.9rem);
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    position: absolute;
+    overflow: auto;
+}
+
+.main .right4 {
+    width: 100%;
+    height: calc(100vh - 6.5rem);
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    position: absolute;
+    overflow: auto;
+}
+
+.main .right8 {
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    position: absolute;
+    overflow: auto;
+}
+.main .right .rightTop {
+    width: 100%;
+    height: 45px;
+    background-color: aliceblue;
+}
+/*.rightTop{*/
+    /*width: 100%;*/
+    /*height: 45px;*/
+    /*background-color: aliceblue;*/
+/*}*/
+.main .right .rightTop>span {
+    font-size: 1.2rem;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.main .right .vote {
+    height: 50%;
+    width: 100%;
+    padding: 25px 35px 25px 35px;
+    margin-top: 1px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.right .vote ul .bumen {
+    height: 80px;
+    border-bottom: 1px solid #e9e9e9;
+    padding-top: 10px;
+}
+.right .vote ul>li:last-child {
+    border-bottom: none;
+
+}
+.right .vote ul .bumen:hover {
+    background-color: #F8F8F8;
+}
+.right .vote .unitName {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+ .right .vote .selectBox .ansBox  {
+     height: 30px;
+}
+.right .vote .selectBox .ansBox .ansInput {
+    margin-top:18px;
+    margin-left: 15px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+}
+.ansBox .ansInput input {
+    margin: 2px 5px 0 10px;
+}
+.ansBox .ansInput span {
+    margin-right: 15px;
+}
+/* 意见与建议文本css */
+.txtArea {
+    width: 650px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 10px;
+    margin-top: -150px;
+    padding-left: 4px;
+}
+/* radio选择框 */
+.radioClass {
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  margin-top: -4px;
+  margin-right: 4px;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 0;
+  outline: 0 !important;
+  line-height: 28px;
+  color: #d8d8d8;
+}
+.radioClass:after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 28px;
+  font-size: 15px;
+  color: #434343;
+  border: 1px solid #b4b4b4;
+  box-sizing: border-box;
+}
+.radioClass:checked:after {
+  content: "";
+  /*box-shadow: 0 0 0 3px #fff inset;*/
+  background-color: #3693d6;
+}
+
+.right .buttonBox {
+    width: 250px;
+    float: left;
+    margin-left: 220px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.right .buttonBox .btn {
+    width: 88px;
+    height: 24px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    float: left;
+    margin-right: 30px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    /*box-shadow: 0px 1px 1px 1px #777;*/
+    cursor: pointer;
+}
+.right .buttonBox .btn:hover {
+    color: #447BB4;
+    background-color: #e9e9e9;
+}
+
+
+
+
+
+
+
+
+
+
+
